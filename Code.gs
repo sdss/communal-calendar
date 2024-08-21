@@ -1,4 +1,4 @@
-const CALENDAR_ID = ""; //"andrew.casey@monash.edu"; 
+const CALENDAR_ID = ""; // Get this from the settings in Google Calendar
 const FORM_ID = ""; // Get this from the URL of the Google Form
 
 function grantEditAccess(email) {
