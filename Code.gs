@@ -15,7 +15,7 @@ function grantEditAccess(email) {
 }
 
 function testEditAccess() {
-  grandEditAccess("andrew.casey@monash.edu");
+  grantEditAccess("andrew.casey@monash.edu");
 }
 
 function onFormSubmit(e) {
