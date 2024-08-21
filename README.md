@@ -1,3 +1,13 @@
+# Communal Calendar
+
+Create a Google Calendar that (nearly) anyone can access, without all the human effort.
+
+# How the fuck?
+
+This sets up a Google Form that, when submitted, it triggers a Google Apps Script function that adds that person as an editor to an existing Google Calendar. Then you can just share the Google Form link within the SDSS collaboration, and anyone who needs edit access to the calendar can add themselves.
+
+# Instructions
+
 1. Create the Google Calendar. Go to the settings for the calendar and note down the "Calendar ID".
 
 2. Create a Google Form, with no questions. 
