@@ -8,7 +8,7 @@ This sets up a Google Form that, when submitted, it triggers a Google Apps Scrip
 
 # Instructions
 
-1. Create the Google Calendar. Go to the settings for the calendar and note down the "Calendar ID".
+1. Create the Google Calendar. Go to the settings for the calendar and note down the "Calendar ID". The Calendar ID will be something like "lotsofjibberish@group.calendar.google.com".
 
 2. Create a Google Form, with no questions. 
 
@@ -20,11 +20,15 @@ This sets up a Google Form that, when submitted, it triggers a Google Apps Scrip
 
 6. In the new tab that has opened, navigate to 'editor' and copy the code from `Code.gs` in this repository.
 
-7. Update `CALENDAR_ID` and `FORM_ID` in your google form.
+7. Update the `CALENDAR_ID` and `FORM_ID` variables in the Google Apps Script. You have the Google Calendar ID from Step #1, so you just need the Google Form ID. You can get the Google Form ID from the URL of your Google Form. Unlike the Google Calendar ID, the Google Form ID will be in the URL like this `https://docs.google.com/forms/d/e/[FORM_ID]/viewform/`
 
 8. In the left hand side of Google Apps Script, select the "+" next to "Services". Add Google Calendar v3.
 
-9. In Google Apps Script navigate to the Triggers button on the left, and create a trigger. The event type should be "from Form" and the function is "onFormSubmit".
+9. In Google Apps Script navigate to the Triggers button on the left (the icon which looks like an alarm clock), and create a trigger. You will need the following details:
+
+ - Choose which function to run: onFormSubmit
+ - Select event source: From form
+ - Select event type: On form submit
 
 10. In Google Apps Script editor, in the top menu select the drop down and select "testEditAccess" and then run the function. Doing this the first time will make sure that all the permissions are set up correctly. Google will ask you if it is OK to do certain things. You will only be asked this once.
 
