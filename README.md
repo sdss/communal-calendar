@@ -26,6 +26,12 @@ This sets up a Google Form that, when submitted, it triggers a Google Apps Scrip
 
 9. In Google Apps Script navigate to the Triggers button on the left, and create a trigger. The event type should be "from Form" and the function is "onFormSubmit".
 
-10. In Google Apps Script editor, in the top menu select the drop down and select "testEditAccess" and then run the function. Doing this the first time will make sure that all the permissions are set up orrectly. Google will ask you if it is OK to do certain things. You will only be asked this once.
+10. In Google Apps Script editor, in the top menu select the drop down and select "testEditAccess" and then run the function. Doing this the first time will make sure that all the permissions are set up correctly. Google will ask you if it is OK to do certain things. You will only be asked this once.
 
 11. Have someone try out the Google Form! When they fill it out they should get two emails: one as a receipt of their form submission, and a notification that they now have access to the calendar.
+
+12. Advertise the link to the Google Form within the SDSS private space (e.g., Wiki, mailing list).
+
+# Notes
+
+This is definitely a hack. But probably a useful one. 'With great power', etc. 
