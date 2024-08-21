@@ -20,7 +20,7 @@ This sets up a Google Form that, when submitted, it triggers a Google Apps Scrip
 
 6. In the new tab that has opened, navigate to 'editor' and copy the code from `Code.gs` in this repository.
 
-7. Update the `CALENDAR_ID` and `FORM_ID` variables in the Google Apps Script. You have the Google Calendar ID from Step #1, so you just need the Google Form ID. You can get the Google Form ID from the URL of your Google Form. Unlike the Google Calendar ID, the Google Form ID will be in the URL like this `https://docs.google.com/forms/d/e/[FORM_ID]/viewform/`
+7. Update the `CALENDAR_ID` variable with what you noted down from Step 1.
 
 8. In the left hand side of Google Apps Script, select the "+" next to "Services". Add Google Calendar v3.
 
@@ -34,7 +34,7 @@ This sets up a Google Form that, when submitted, it triggers a Google Apps Scrip
 
 11. Have someone try out the Google Form! When they fill it out they should get two emails: one as a receipt of their form submission, and a notification that they now have access to the calendar.
 
-12. Advertise the link to the Google Form within the SDSS private space (e.g., Wiki, mailing list).
+12. Advertise the link to the Google Form within the SDSS private space (e.g., Wiki, Slack, mailing list).
 
 # Notes
 
